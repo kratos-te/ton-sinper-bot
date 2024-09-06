@@ -98,8 +98,8 @@ function initializeBot() {
         },
       };
 
+      // telegram logo image url
       const url = "https://tele-mini-app-murex.vercel.app/_next/image?url=https%3A%2F%2Fframerusercontent.com%2Fimages%2FHr67yj6I3bDvBMruWOyGWjc8jPc.png&w=384&q=75";
-      // const url = "https://postimg.cc/Q9rY6ZVh";
 
       bot.sendPhoto(context.chatId || msg.chat.id, url, {
         caption:
@@ -148,7 +148,7 @@ function initializeBot() {
 }
 
 
-// snipeStonfi();
+snipeStonfi();
 
 function snipeDedust() {
   let temp = 0;
